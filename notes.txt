@@ -1,0 +1,10 @@
+
+run_site.sh:
+contains command 
+bundle exec jekyll serve
+
+
+#For github pages work.
+since, run_site.sh places stuff into run_site
+_site will be the build directory.
+

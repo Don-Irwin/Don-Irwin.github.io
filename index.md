@@ -1,16 +1,19 @@
 ---
-title: Bulma Clean Theme
-subtitle: This is the demo site for Bulma Clean Theme
+title: Don Irwin
+subtitle: Data-Centric Solutions Architect
 layout: page
-callouts: home_callouts
-show_sidebar: true
+#callouts: home_callouts
+show_sidebar: false
+hero_img: /img/don_irwin_profile.jpeg
 ---
 
-# Bulma Clean Theme demo website
+# Welcome
 
 This website showcases the options for the Bulma Clean theme. The theme is available as a ruby gem or can be used with GitHub pages. 
 
-[![Gem Version](https://badge.fury.io/rb/bulma-clean-theme.svg)](https://badge.fury.io/rb/bulma-clean-theme)
+asdf
+
+<!-- [![Gem Version](https://badge.fury.io/rb/bulma-clean-theme.svg)](https://badge.fury.io/rb/bulma-clean-theme)
 ![Gem](https://img.shields.io/gem/dt/bulma-clean-theme.svg)
 ![GitHub Repo stars](https://img.shields.io/github/stars/chrisrhymes/bulma-clean-theme?style=social)
 
@@ -51,4 +54,4 @@ This demo site showcases the available page layout options.
 
 JetBrains have kindly provided an Open Source licence to aid in the future development of Bulma Clean Theme.
 
-[![JetBrains](img/jetbrains-variant-4.svg)](https://www.jetbrains.com/?from=bulma-clean-theme)
+[![JetBrains](img/jetbrains-variant-4.svg)](https://www.jetbrains.com/?from=bulma-clean-theme) -->

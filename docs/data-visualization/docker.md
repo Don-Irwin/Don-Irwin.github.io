@@ -13,7 +13,7 @@ toc: true
 
 * <a href="https://www.gnu.org/software/bash/" target="_blank">GNU Bash</a> -- Our command examples are in bash shell language.  Bash shells are available for Linux, MacOS and Windows.
 
-## Fastest Way -- Git clone, then run within docker:
+## Fastest Way -- Run From Docker Image:
 
 ```
 git clone https://github.com/Don-Irwin/world_trade_visualization && cd world_trade_visualization && . pull_and_run_docker.sh
@@ -21,7 +21,7 @@ git clone https://github.com/Don-Irwin/world_trade_visualization && cd world_tra
 
 This command will pull the entire repository, move into the directory, then run the script `pull_and_run_docker.sh`.
 
-The script `pull_and_run_docker.sh` pulls a pre-built version of this codebase and runs it under docker.
+The script `pull_and_run_docker.sh` pulls a pre-built docker image of this codebase and runs it under docker.
 
 It will expose a Flask Application at:
 
@@ -36,7 +36,7 @@ Once the script is complete you should see this message:
 ![Complete Message](/docs/data-visualization/img/ready.png){:class="img-responsive"}
 
 
-## Build docker image then run.
+## Build Docker Image Locally, Then Run:
 
 If you want to build the docker image locally then run; follow these steps:
 

@@ -21,9 +21,9 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
     
     <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Running from local code | Don Irwin</title>
+<title>Run from Local Code | Don Irwin</title>
 <meta name="generator" content="Jekyll v4.3.2" />
-<meta property="og:title" content="Running from local code" />
+<meta property="og:title" content="Run from Local Code" />
 <meta property="og:locale" content="en" />
 <meta name="description" content="The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites" />
 <meta property="og:description" content="The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites" />
@@ -32,9 +32,9 @@
 <meta property="og:site_name" content="Don Irwin" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Running from local code" />
+<meta property="twitter:title" content="Run from Local Code" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites","headline":"Running from local code","url":"http://localhost:4000/docs/data-visualization/local-code/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites","headline":"Run from Local Code","url":"http://localhost:4000/docs/data-visualization/local-code/"}</script>
 <!-- End Jekyll SEO tag -->
 
     <!-- head scripts --></head>
@@ -86,8 +86,8 @@
                 
 
                 <div class="column">
-                    <h1 class="title is-2">Running from local code</h1>
-                    <p class="subtitle is-3">Building solution locally and running</p>
+                    <h1 class="title is-2">Run from Local Code</h1>
+                    <p class="subtitle is-3">Pull from Github, Run and Debug Locally</p>
 
                     
                 </div>
@@ -111,7 +111,7 @@
 
 <aside class="menu">
 
-    <p class="menu-label">Data Visualization</p>
+    <p class="menu-label">World Trade Data Visualization</p>
     <ul class="menu-list">
         
         <li>
@@ -125,7 +125,7 @@
         </li>
         
         <li>
-            <a href="/docs/data-visualization/local-code/" class="is-active">Running from local code</a>
+            <a href="/docs/data-visualization/local-code/" class="is-active">Running From Local Code</a>
             
         </li>
             
@@ -289,8 +289,7 @@
         <p class="menu-label">Contents</p>
         <ul class="menu-list">
   <li><a href="#pre-requisites">Pre-Requisites</a></li>
-  <li><a href="#fastest-way--git-clone-then-run-within-docker">Fastest Way – Git clone, then run within docker:</a></li>
-  <li><a href="#build-docker-image-then-run">Build docker image then run.</a></li>
+  <li><a href="#run-locally">Run Locally.</a></li>
 </ul>
     </div>
 </div>
@@ -315,30 +314,18 @@
 
 <p><img src="/docs/data-visualization/img/python3.10.png" alt="Python 3.10" /></p>
 
-<h2 id="fastest-way--git-clone-then-run-within-docker">Fastest Way – Git clone, then run within docker:</h2>
+<ul>
+  <li>We will cover debugging with <a href="https://code.visualstudio.com/download" target="_blank">VS Code</a>.</li>
+</ul>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/Don-Irwin/world_trade_visualization &amp;&amp; cd world_trade_visualization &amp;&amp; . pull_and_run_docker.sh
-</code></pre></div></div>
+<h2 id="run-locally">Run Locally.</h2>
 
-<p>This command will pull the entire repository, move into the directory, then run the script <code class="language-plaintext highlighter-rouge">pull_and_run_docker.sh</code>.</p>
+<p>View a video of the steps below:</p>
 
-<p>The script <code class="language-plaintext highlighter-rouge">pull_and_run_docker.sh</code> pulls a pre-built version of this codebase and runs it under docker.</p>
-
-<p>It will expose a Flask Application at:</p>
-
-<p>http://127.0.0.1:5001</p>
-
-<p>And a Jupyter Notebook instance at:</p>
-
-<p>http://127.0.0.1:8888</p>
-
-<p>Once the script is complete you should see this message:</p>
-
-<p><img src="/docs/data-visualization/img/ready.png" alt="Complete Message" class="img-responsive" /></p>
-
-<h2 id="build-docker-image-then-run">Build docker image then run.</h2>
-
-<p>If you want to build the docker image locally then run; follow these steps:</p>
+<figure class="image is-16by9"> 
+    <iframe class="has-ratio" src="https://www.youtube.com/embed/cwUgX5A-1Gw?start=0&amp;showinfo=0" frameborder="0" allowfullscreen="">
+    </iframe>
+</figure>
 
 <ul>
   <li>Clone the repo into a local directory:
@@ -349,12 +336,19 @@
     <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd ./world_trade_visualization
 </code></pre></div>    </div>
   </li>
-  <li>Run the included script
-    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>. build_and_run_209_docker.sh
+  <li>Setup the virtual environment and load dependencies;
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>. setup_venv.sh
+</code></pre></div>    </div>
+  </li>
+  <li>Open Visual Studio code (optional) for debugging.
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>code .
+</code></pre></div>    </div>
+  </li>
+  <li>Otherwise, simply run with python.
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python app.py
 </code></pre></div>    </div>
   </li>
 </ul>
-
 
 </div>
                 </div>

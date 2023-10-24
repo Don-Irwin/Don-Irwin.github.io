@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Running from local code
-subtitle: Building solution locally and running
+title: Run from Local Code
+subtitle: Pull from Github, Run and Debug Locally
 menubar: docs_menu
 show_sidebar: false
 toc: true
@@ -17,32 +17,13 @@ toc: true
 
 ![Python 3.10](/docs/data-visualization/img/python3.10.png)
 
-## Fastest Way -- Git clone, then run within docker:
+* We will cover debugging with [VS Code](https://code.visualstudio.com/download){:target="_blank"}.
 
-```
-git clone https://github.com/Don-Irwin/world_trade_visualization && cd world_trade_visualization && . pull_and_run_docker.sh
-```
+## Run Locally.
 
-This command will pull the entire repository, move into the directory, then run the script `pull_and_run_docker.sh`.
+View a video of the steps below:
 
-The script `pull_and_run_docker.sh` pulls a pre-built version of this codebase and runs it under docker.
-
-It will expose a Flask Application at:
-
-http://127.0.0.1:5001
-
-And a Jupyter Notebook instance at:
-
-http://127.0.0.1:8888
-
-Once the script is complete you should see this message:
-
-![Complete Message](/docs/data-visualization/img/ready.png){:class="img-responsive"}
-
-
-## Build docker image then run.
-
-If you want to build the docker image locally then run; follow these steps:
+{% include youtube.html video="cwUgX5A-1Gw" %}  
 
 * Clone the repo into a local directory:
 ```
@@ -52,9 +33,15 @@ git clone https://github.com/Don-Irwin/world_trade_visualization
 ```
 cd ./world_trade_visualization
 ```
-* Run the included script 
+* Setup the virtual environment and load dependencies;
 ```
-. build_and_run_209_docker.sh
+. setup_venv.sh
 ```
-
-
+* Open Visual Studio code (optional) for debugging.
+```
+code .
+```
+* Otherwise, simply run with python.
+```
+python app.py
+```

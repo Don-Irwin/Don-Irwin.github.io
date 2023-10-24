@@ -1,10 +1,10 @@
-- label: Data Visualization
+- label: World Trade Data Visualization
   items:
     - name: Overview
       link: /docs/data-visualization/overview/
     - name: Running From Docker
       link: /docs/data-visualization/docker/
-    - name: Running from local code
+    - name: Running From Local Code
       link: /docs/data-visualization/local-code/
 
 - label: Navigation

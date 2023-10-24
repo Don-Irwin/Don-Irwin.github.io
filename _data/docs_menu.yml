@@ -1,16 +1,11 @@
-- label: Getting Started
+- label: Data Visualization
   items:
-    - name: Installation
-      link: /docs/getting-started/installation/
-    - name: Configuration
-      link: /docs/getting-started/configuration/
-    - name: Theming
-      link: /docs/getting-started/theming/
-    - name: Sidebar
-      link: /docs/getting-started/sidebar/
-    - name: Scripts
-      link: /docs/getting-started/scripts/
-
+    - name: Overview
+      link: /docs/data-visualization/overview/
+    - name: Running From Docker
+      link: /docs/data-visualization/docker/
+    - name: Running from local code
+      link: /docs/data-visualization/local-code/
 
 - label: Navigation
   items:

@@ -1,10 +1,18 @@
 ---
 layout: page
-title: Docs
+title: Featured Repos
+subtitle: Noteworthy Github Repos
 menubar: docs_menu
 show_sidebar: false
 ---
 
-Bulma Clean Theme has many features available. The documentation has been spit into categories to make it easier to navigate through the various features. 
+Here are some github repos which are noteworthy.
 
-Find out how to install Bulma Clean Theme in your Jekyll project in the [Installation](/bulma-clean-theme/docs/getting-started/installation/) section.
+If you have an interest in a specific technology, methodology, or design related to data science and data engineering, drop me a line and I'll put together a short solution or demo of that technology when I have the time.
+
+Some if not all of these repos should be available at this location:
+
+[Don Irwin's GitHub Profile](https://github.com/Don-Irwin?tab=repositories)
+
+
+

@@ -13,7 +13,7 @@ I'm fortunate to have grown from the ground up in the field of software engineer
 
 This field has transformed from siloed, rules-based, relatively data-sparse systems in the late 1990s and early 2000s into heavily interconnected, data consuming and data-generating systems. 
 
-Arguably more important than an organization's physical products are those data that define their products, operations, customers, suppliers, schedules, customers, devices, and finances. 
+Arguably more important than an organization's physical products are those data that define their products, operations, suppliers, schedules, customers, locations, physical and digital assets and infrastructure, devices, and finances. 
 
 My career has evolved from the first generation of high-traffic web applications, serving millions of consumers daily, to today's tools for analyzing, engineering, channeling, managing, and deriving value from large and continually evolving datasets. These datasets range from consumers' on-system activities to specialized financial or accounting instruments. 
 

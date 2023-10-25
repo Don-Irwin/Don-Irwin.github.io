@@ -21,4 +21,4 @@ The field of information systems will continue to evolve from "pipelines, databa
 
 Software features, or management reports previously handcrafted from an analyst's analysis of persistent data stores and passed over to a software developer will be generated from large language models tied into the information systems of an enterprise. 
 
-This is where I add value by bringing domain knowledge from business systems analysis and design, software engineering, and data science.
+I bring domain knowledge of business systems analysis and design, software engineering, and data science.

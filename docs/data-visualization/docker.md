@@ -1,10 +1,11 @@
 ---
 layout: page
 title: Running from Docker
-subtitle: Pulling repo down and running within docker
+subtitle: World Trade Data Visualization
 menubar: docs_menu
 show_sidebar: false
-toc: true
+hero_img: /img/don_irwin_profile.gif
+#toc: true
 ---
 
 ## Pre-Requisites

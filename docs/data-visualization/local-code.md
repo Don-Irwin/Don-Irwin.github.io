@@ -1,10 +1,11 @@
 ---
 layout: page
 title: Run from Local Code
-subtitle: Pull from Github, Run and Debug Locally
+subtitle: World Trade Data Visualization
 menubar: docs_menu
 show_sidebar: false
-toc: true
+hero_img: /img/don_irwin_profile.gif
+#toc: true
 ---
 
 ## Pre-Requisites

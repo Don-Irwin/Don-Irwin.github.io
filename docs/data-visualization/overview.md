@@ -2,12 +2,13 @@
 layout: page
 menubar: docs_menu
 title: Overview
-subtitle: Background and Getting Started
+subtitle: World Trade Data Visualization
 show_sidebar: false
-toc: true
+hero_img: /img/don_irwin_profile.gif
+#toc: true
 ---
 
-## Background
+## Github Link
 
 Available at:   
 
@@ -15,13 +16,16 @@ Available at:
 git clone https://github.com/Don-Irwin/world_trade_visualization
 ```
 
+## Background
+
 This project provides a web application with data visualizations for the world's top 20 trading nations (`not the G20`).   
 
-![Overview](/docs/data-visualization/img/overview.png){:class="img-responsive"}
+{% include youtube.html video="NiLuDx-3YNI" %}  
 
 In addition, the project contains a Jupyter notebooks to allow users / developers to view the custom data and rendering objects.
 
 ![Eda in Jupyter](/docs/data-visualization/img/eda_with_jupyter.png){:class="img-responsive"}
+
 
 ## Tech Stack
 

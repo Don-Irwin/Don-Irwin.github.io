@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+
+
+
+<html
+ dir="ltr"
+ lang="en"
+ class="has-navbar-fixed-top">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content=#ffffff>
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="shortcut icon" type="image/png"
+           href="/favicon.png" 
+    />
+    <script defer src="https://unpkg.com/alpinejs@3.9.0/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Running the Very First First Time | Don Irwin</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Running the Very First First Time" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites" />
+<meta property="og:description" content="The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites" />
+<link rel="canonical" href="http://localhost:4000/docs/data-streaming/first-time/" />
+<meta property="og:url" content="http://localhost:4000/docs/data-streaming/first-time/" />
+<meta property="og:site_name" content="Don Irwin" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Running the Very First First Time" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites","headline":"Running the Very First First Time","url":"http://localhost:4000/docs/data-streaming/first-time/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <!-- head scripts --></head>
+
+  <body>
+    <nav class="navbar is-primary  is-fixed-top " x-data="{ openNav: false }">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item">
+                Don Irwin
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                <a href="/" class="navbar-item ">Home</a>
+                
+                
+                    
+                    <a href="/docs/" class="navbar-item ">Featured Repos</a>
+                    
+                
+                    
+                    <a href="/blog/" class="navbar-item ">Blog</a>
+                    
+                
+                
+            </div>
+
+            <div class="navbar-end">
+                
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+    
+        <section class="hero  is-small  is-bold is-primary" >
+    <div class="hero-body "  >
+        <div class="container">
+
+            <div class="columns is-variable">
+
+                                
+                <div class="column is-1">
+                    <img src="/img/don_irwin_profile.gif">
+                </div>
+                
+
+                <div class="column">
+                    <h1 class="title is-2">Running the Very First First Time</h1>
+                    <p class="subtitle is-3">Data Streaming Pipeline</p>
+
+                    
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+    
+    
+
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-multiline">
+                
+                <div class="column is-4-desktop is-4-tablet">
+                    
+
+<aside class="menu">
+
+    <p class="menu-label">World Trade Data Visualization</p>
+    <ul class="menu-list">
+        
+        <li>
+            <a href="/docs/data-visualization/overview/" class="">Overview</a>
+            
+        </li>
+        
+        <li>
+            <a href="/docs/data-visualization/docker/" class="">Running From Docker</a>
+            
+        </li>
+        
+        <li>
+            <a href="/docs/data-visualization/local-code/" class="">Running From Local Code</a>
+            
+        </li>
+            
+    </ul>
+
+    <p class="menu-label">Data Streaming Pipeline</p>
+    <ul class="menu-list">
+        
+        <li>
+            <a href="/docs/data-streaming/overview/" class="">Overview</a>
+            
+        </li>
+        
+        <li>
+            <a href="/docs/data-streaming/first-time/" class="is-active">Running the Very First First Time</a>
+            
+        </li>
+        
+        <li>
+            <a href="/docs/data-streaming/monitor/" class="">Viewing / Monitoring Stream Progress</a>
+            
+        </li>
+            
+    </ul>
+
+</aside>
+                </div>
+                
+                <div class="column is-8">
+                    
+                    
+
+                    
+                    
+                    
+<div class="content">
+    <h2 id="limitations">Limitations</h2>
+
+<p>This system will not work on a system with an ARM / M1 / M2 processor as the docker images are X86/AMD64 architecture specific.</p>
+
+<h2 id="pre-requisites">Pre-Requisites</h2>
+
+<ul>
+  <li>Docker, Docker-Compose, Python, Python3 is Python, Bash</li>
+</ul>
+
+<h2 id="linux-ubuntu-for-quickest-results">Linux (Ubuntu) for Quickest Results</h2>
+
+<p>While this solution will run on Windows (if correctly set up), it’s easiest to run this on a Linux server, or a X86/AMD64 based Mac, with Bash Shell installed.</p>
+
+<p>If one does not have this locally, a cloud based or local Ubuntu Virtual Machine will work well.</p>
+
+<p>Below are the commands to setup dependencies on Ubuntu:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo su
+apt update &amp;&amp; apt install docker -y &amp;&amp; apt install docker-compose -y &amp;&amp; apt install git -y &amp;&amp; apt install python-is-python3 -y
+</code></pre></div></div>
+
+<h2 id="time-for-first-time-run">Time for First Time Run</h2>
+
+<p>The first time this solution runs it will take some time (possibly up to 10 minutes –depending on internet connection speed–) to download the docker images upon which the solution relies.  Subsequent runs (provided the docker images are not removed) – will be significantly faster.</p>
+
+<h2 id="download-and-run">Download and Run</h2>
+
+<p>Below is the command which will download the repository and run the solution.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/Don-Irwin/data_streaming_pipeline &amp;&amp; cd ./data_streaming_pipeline &amp;&amp; . run.sh
+</code></pre></div></div>
+
+</div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+        <footer class="footer">
+    <div class="container">
+        
+        
+
+        <!--
+             <div class="content is-small has-text-centered">
+                <p class="">Theme built by <a href="https://www.csrhymes.com">C.S. Rhymes</a></p>
+            </div> 
+        -->
+
+    </div>
+</footer>
+
+    
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+</html>

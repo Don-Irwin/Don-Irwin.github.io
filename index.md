@@ -4,54 +4,21 @@ subtitle: Data-Centric Solutions Architect
 layout: page
 #callouts: home_callouts
 show_sidebar: false
-hero_img: /img/don_irwin_profile.jpeg
+hero_img: /img/don_irwin_profile.gif
 ---
 
 # Welcome
 
-This website showcases the options for the Bulma Clean theme. The theme is available as a ruby gem or can be used with GitHub pages. 
+I'm fortunate to have grown from the ground up in the field of software engineering and information systems. 
 
-asdf
+This field has transformed from siloed, rules-based, relatively data-sparse systems in the late 1990s and early 2000s into heavily interconnected, data consuming and data-generating systems. 
 
-<!-- [![Gem Version](https://badge.fury.io/rb/bulma-clean-theme.svg)](https://badge.fury.io/rb/bulma-clean-theme)
-![Gem](https://img.shields.io/gem/dt/bulma-clean-theme.svg)
-![GitHub Repo stars](https://img.shields.io/github/stars/chrisrhymes/bulma-clean-theme?style=social)
+Arguably more important than an organization's physical products are those data that define their products, operations, customers, suppliers, schedules, customers, devices, and finances. 
 
-## Ruby Gem
+My career has evolved from the first generation of high-traffic web applications, serving millions of consumers daily, to today's tools for analyzing, engineering, channeling, managing, and deriving value from large and continually evolving datasets. These datasets range from consumers' on-system activities to specialized financial or accounting instruments. 
 
-The ruby gem is available on the Ruby Gems website at the following location. [https://rubygems.org/gems/bulma-clean-theme](https://rubygems.org/gems/bulma-clean-theme).
+The field of information systems will continue to evolve from "pipelines, databases, applications, and reports" to more agile and autonomous data-driven systems. Many decisions currently made by analysts and developers will be driven by AI/ML models, leading to self-managing and self-reporting information systems. 
 
-## GitHub Pages
+Software features, or management reports previously handcrafted from an analyst's analysis of persistent data stores and passed over to a software developer will be generated from large language models tied into the information systems of an enterprise. 
 
-The theme can be used with GitHub Pages by setting the `remote_theme` in your Jekyll sites `_config.yml`
-
-```yml
-remote_theme: chrisrhymes/bulma-clean-theme
-```
-
-## Documentation
-
-For full instructions, please see the [Documentation](/bulma-clean-theme/docs/)
-
-## Page Layouts
-
-This demo site showcases the available page layout options. 
-
-* Sidebar
-* Menubar
-* Tabs
-* Footer
-* Hero
-* Contents
-* Landing Page With Callouts
-* Sponsors Page
-* Image Gallery
-* Recipe Page
-* Blog
-* Post
-
-## Supported By JetBrains
-
-JetBrains have kindly provided an Open Source licence to aid in the future development of Bulma Clean Theme.
-
-[![JetBrains](img/jetbrains-variant-4.svg)](https://www.jetbrains.com/?from=bulma-clean-theme) -->
+This is where I add value by bringing domain knowledge from business systems analysis and design, software engineering, and data science.

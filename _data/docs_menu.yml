@@ -16,7 +16,7 @@
     - name: Viewing / Monitoring Stream Progress
       link: /docs/data-streaming/monitor/
 
-- label: Serving ML Models in K8s Clusters
+- label: Serve ML Models With K8s and FASTAPI
   items:
     - name: Overview
       link: /docs/data-streaming/overview/

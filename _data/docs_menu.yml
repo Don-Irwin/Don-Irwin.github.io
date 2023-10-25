@@ -16,6 +16,16 @@
     - name: Viewing / Monitoring Stream Progress
       link: /docs/data-streaming/monitor/
 
+- label: Serving Machine Learning Models in Kubernetes Clusters
+  items:
+    - name: Overview
+      link: /docs/data-streaming/overview/
+    - name: Running the Very First First Time
+      link: /docs/data-streaming/first-time/
+    - name: Viewing / Monitoring Stream Progress
+      link: /docs/data-streaming/monitor/
+
+
 # - label: Pages
 #   items:
 #     - name: Creating a page

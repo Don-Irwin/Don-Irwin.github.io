@@ -16,7 +16,7 @@
     - name: Viewing / Monitoring Stream Progress
       link: /docs/data-streaming/monitor/
 
-- label: Serving Machine Learning Models in Kubernetes Clusters
+- label: Serving ML Models in K8s Clusters
   items:
     - name: Overview
       link: /docs/data-streaming/overview/

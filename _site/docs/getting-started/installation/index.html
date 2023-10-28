@@ -20,6 +20,9 @@
     
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
     
+
+
+
     <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Installation | Don Irwin</title>
 <meta name="generator" content="Jekyll v4.3.2" />
@@ -37,7 +40,25 @@
 {"@context":"https://schema.org","@type":"WebPage","description":"The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites","headline":"Installation","url":"http://localhost:4000/docs/getting-started/installation/"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <!-- head scripts --></head>
+    <!-- head scripts --><style>
+  .menu {
+    position: sticky;
+    display: inline-block;
+    vertical-align: top;
+    max-height: 100vh;
+    overflow-y: auto;
+    width: 400px;
+    top: 60px;
+    bottom: 0;
+    padding: 0px;  
+  }
+
+  .content {
+    display: inline-block;
+  }  
+</style>
+
+</head>
 
   <body>
     <nav class="navbar is-primary  is-fixed-top " x-data="{ openNav: false }">
@@ -147,21 +168,51 @@
             
     </ul>
 
-    <p class="menu-label">Serve ML Models With K8s and FASTAPI</p>
+    <p class="menu-label">Serve ML Models With FastAPI and K8s</p>
     <ul class="menu-list">
         
         <li>
-            <a href="/docs/data-streaming/overview/" class="">Overview</a>
+            <a href="/docs/serve-ml/overview/" class="">Overview</a>
             
         </li>
         
         <li>
-            <a href="/docs/data-streaming/first-time/" class="">Running the Very First First Time</a>
+            <a href="/docs/serve-ml/video-walkthrough/" class="">End to End Video Walkthrough</a>
             
         </li>
         
         <li>
-            <a href="/docs/data-streaming/monitor/" class="">Viewing / Monitoring Stream Progress</a>
+            <a href="/docs/serve-ml/overview-minikube/" class="">Minikube Environment</a>
+            
+        </li>
+        
+        <li>
+            <a href="/docs/serve-ml/overview-istio/" class="">Istio Sidecar and Proxy</a>
+            
+        </li>
+        
+        <li>
+            <a href="/docs/serve-ml/requirements-deps/" class="">System Requirements</a>
+            
+        </li>
+        
+        <li>
+            <a href="/docs/serve-ml/deps/" class="">Dependencies</a>
+            
+        </li>
+        
+        <li>
+            <a href="/docs/serve-ml/end-to-end/" class="">Running End to End</a>
+            
+        </li>
+        
+        <li>
+            <a href="/docs/serve-ml/gh-actions/" class="">Testing With Github Actions</a>
+            
+        </li>
+        
+        <li>
+            <a href="/docs/serve-ml/lt-and-td/" class="">K6 Testing and Teardown</a>
             
         </li>
             

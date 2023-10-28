@@ -4,7 +4,7 @@ title: Featured Repos
 subtitle: Noteworthy Github Repos
 menubar: docs_menu
 show_sidebar: false
-hero_img: /img/don_irwin_profile.gif
+hero_img: /img/don_irwin_profile_small.gif
 ---
 
 Here are some github repos which are noteworthy.

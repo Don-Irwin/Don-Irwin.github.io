@@ -4,7 +4,7 @@ menubar: docs_menu
 title: Overview
 subtitle: World Trade Data Visualization
 show_sidebar: false
-hero_img: /img/don_irwin_profile.gif
+hero_img: /img/don_irwin_profile_small.gif
 #toc: true
 ---
 

@@ -11,6 +11,9 @@
     {% unless site.hide_share_buttons %}
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
     {% endunless %}
+
+
+
     {% seo %}
     {% if site.feed %}
     {% feed_meta %}
@@ -19,4 +22,23 @@
       {%- include google-analytics.html -%}
     {%- endif -%}
     {%- include head-scripts.html -%}
+
+<style>
+  .menu {
+    position: sticky;
+    display: inline-block;
+    vertical-align: top;
+    max-height: 100vh;
+    overflow-y: auto;
+    width: 400px;
+    top: 60px;
+    bottom: 0;
+    padding: 0px;  
+  }
+
+  .content {
+    display: inline-block;
+  }  
+</style>
+
 </head>

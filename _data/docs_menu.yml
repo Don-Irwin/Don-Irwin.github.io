@@ -16,11 +16,23 @@
     - name: Viewing / Monitoring Stream Progress
       link: /docs/data-streaming/monitor/
 
-- label: Serve ML Models With K8s and FASTAPI
+- label: Serve ML Models With FastAPI and K8s
   items:
     - name: Overview
-      link: /docs/data-streaming/overview/
-    - name: Running the Very First First Time
-      link: /docs/data-streaming/first-time/
-    - name: Viewing / Monitoring Stream Progress
-      link: /docs/data-streaming/monitor/
+      link: /docs/serve-ml/overview/
+    - name: End to End Video Walkthrough
+      link: /docs/serve-ml/video-walkthrough/
+    - name: Minikube Environment
+      link: /docs/serve-ml/overview-minikube/
+    - name: Istio Sidecar and Proxy
+      link: /docs/serve-ml/overview-istio/
+    - name: System Requirements
+      link: /docs/serve-ml/requirements-deps/      
+    - name: Dependencies
+      link: /docs/serve-ml/deps/
+    - name: Running End to End
+      link: /docs/serve-ml/end-to-end/
+    - name: Testing With Github Actions
+      link: /docs/serve-ml/gh-actions/      
+    - name: K6 Testing and Teardown
+      link: /docs/serve-ml/lt-and-td/      

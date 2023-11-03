@@ -15,7 +15,7 @@ Here are some github repos and projects which are noteworthy:
 
 [Serve ML Models With FastAPI and K8s](/docs/serve-ml/overview/)
 
-[Home Market Advisor](https://mids-home-market-advisor.herokuapp.com/){:target="_blank"}
+[Home Market Advisor](/docs/hma/overview/)
 
 If you have an interest in a specific technology, methodology, or design related to data science and data engineering, drop me a line and I'll put together a short solution or demo of that technology when I have the time.
 

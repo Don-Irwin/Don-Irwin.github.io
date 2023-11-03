@@ -36,3 +36,8 @@
       link: /docs/serve-ml/gh-actions/      
     - name: K6 Testing and Teardown
       link: /docs/serve-ml/lt-and-td/      
+
+- label: Home Market Advisor
+  items:
+    - name: Overview
+      link: /docs/hma/overview/

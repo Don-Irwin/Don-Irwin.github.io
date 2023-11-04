@@ -21,7 +21,7 @@ If you have an interest in a specific technology, methodology, or design related
 
 These Repos Are Available on my publicly facing github site:
 
-[Don Irwin's GitHub Profile](https://github.com/Don-Irwin?tab=repositories)
+[Don Irwin's GitHub Profile](https://github.com/Don-Irwin?tab=repositories){:target="_blank"}
 
 
 
